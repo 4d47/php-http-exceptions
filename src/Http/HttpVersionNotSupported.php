@@ -4,8 +4,8 @@ namespace Http;
 /**
  * The server does not support the HTTP protocol version used in the request.
  */
-class VersionNotSupported extends ServerError
+class HttpVersionNotSupported extends ServerError
 {
     public $code = 505;
-    public $reason = 'Version Not Supported';
+    public $reason = 'HTTP Version Not Supported';
 }

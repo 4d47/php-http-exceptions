@@ -6,8 +6,8 @@ namespace Http;
  * of too much data being encoded as a query-string of a GET request, in which 
  * case it should be converted to a POST request.
  */
-class RequestURITooLong extends ClientError
+class RequestUriTooLong extends ClientError
 {
     public $code = 414;
-    public $reason = 'Request URI Too Long';
+    public $reason = 'Request-URI Too Long';
 }
